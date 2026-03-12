@@ -1,5 +1,4 @@
 ># Full Stack Tech Exam - Readme Template
-
 **Name:** [Your Name Here]
 
 ## 🔗 Required Links
