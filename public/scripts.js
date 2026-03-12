@@ -23,6 +23,12 @@ document.getElementById('nameForm').addEventListener('submit', async (e) => {
 
 });
 
+async function initEmoji() {
+  await fetch('/api/init-emoji');
+}
+
+initEmoji();
+
 
 // async function loadNames() {
 //     try {
