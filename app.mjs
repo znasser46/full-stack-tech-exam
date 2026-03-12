@@ -36,7 +36,7 @@ app.get('/', (req, res) => {
   res.sendFile(join(__dirname, 'public', 'exam.html'));
 })
 
-app.post('/api/get-name', async (req, res) => {
+app.get('/api/get-name', async (req, res) => {
   try {
     const { userName } = req.body;
 

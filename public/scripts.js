@@ -4,17 +4,21 @@ document.getElementById('nameForm').addEventListener('submit', async (e) => {
     const name = document.getElementById('userName').value;
 
 
-    const response = await fetch('/api/init-emoji', {
-      method: 'GET',
+    const response = await fetch('/api/get-name', {
+      method: 'POST',
       headers: {
         'Content-Type': 'application/json'
       },
+      body: JSON.stringify({ userName: name })
       
     });
    
 
-     const result = response.json();
-     return result;
+     const result = await response.json();
+     
+     if (response.ok) {
+      document.getElementById("result") .textContent = ` ${result.name} ${result.emoji}`;
+     }
   
 
 });
