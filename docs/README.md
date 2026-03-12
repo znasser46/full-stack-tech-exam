@@ -12,7 +12,7 @@
 | **Issue** | [https://github.com/your-username/your-repo-name/issues/1](https://github.com/znasser46/full-stack-tech-exam/issues/1) | 
 | **Pull Request** | [https://github.com/your-username/your-repo-name/pull/1](https://github.com/znasser46/full-stack-tech-exam/pull/2) | 
 | **Milestone** | [https://github.com/your-username/your-repo-name/milestone/1](https://github.com/znasser46/full-stack-tech-exam/milestone/1) | 
-| **Successful CI/CD Action** | [https://github.com/your-username/your-repo-name/actions/runs/your-run-id](https://github.com/znasser46/full-stack-tech-exam/actions/runs/23022692535/job/66862925620) | 
+| **Successful CI/CD Action** | [https://github.com/your-username/your-repo-name/actions/runs/your-run-id](https://github.com/znasser46/full-stack-tech-exam/actions/runs/23022972777/job/66863877779) | 
 | **ssh cmd to your gcp** | `ssh -i student-key bcumbie@your.static.external.ip` `ssh -i midterm znasser@34.72.188.74`| 
 
 ---
