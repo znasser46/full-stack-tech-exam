@@ -1,14 +1,14 @@
 ># Full Stack Tech Exam - Readme Template
-**Name:** [Your Name Here]
+**Name:** Zachary Nasser
 
 ## 🔗 Required Links
 
 | Component | Link | 
 |-----------|------|
-| **GitHub Repository** | [https://github.com/your-username/your-repo-name](https://github.com/your-username/your-repo-name) | 
+| **GitHub Repository** | [https://github.com/your-username/your-repo-name](https://github.com/your-username/your-repo-name](https://github.com/znasser46/full-stack-tech-exam)) | 
 | **GitHub Pages (docs/)** | [https://your-username.github.io/your-repo-name/](https://your-username.github.io/your-repo-name/) | 
-| **Dev Server (Render)** | [https://your-app-name-dev.onrender.com](https://your-app-name-dev.onrender.com) | 
-| **Production Server (GCP)** | [http://your.static.external.ip:3000](http://your.static.external.ip:3000) | 
+| **Dev Server (Render)** | [https://your-app-name-dev.onrender.com](https://your-app-name-dev.onrender.com](https://full-stack-tech-exam-4opt.onrender.com/)) | 
+| **Production Server (GCP)** | [http://your.static.external.ip:3000](http://your.static.external.ip:3000](http://34.72.188.74/)) | 
 | **Issue** | [https://github.com/your-username/your-repo-name/issues/1](https://github.com/your-username/your-repo-name/issues/1) | 
 | **Pull Request** | [https://github.com/your-username/your-repo-name/pull/1](https://github.com/your-username/your-repo-name/pull/1) | 
 | **Milestone** | [https://github.com/your-username/your-repo-name/milestone/1](https://github.com/your-username/your-repo-name/milestone/1) | 
