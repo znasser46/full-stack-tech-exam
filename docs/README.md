@@ -5,15 +5,15 @@
 
 | Component | Link | 
 |-----------|------|
-| **GitHub Repository** | [https://github.com/your-username/your-repo-name](https://github.com/your-username/your-repo-name](https://github.com/znasser46/full-stack-tech-exam)) | 
-| **GitHub Pages (docs/)** | [https://your-username.github.io/your-repo-name/](https://your-username.github.io/your-repo-name/) | 
-| **Dev Server (Render)** | [https://your-app-name-dev.onrender.com](https://your-app-name-dev.onrender.com](https://full-stack-tech-exam-4opt.onrender.com/)) | 
-| **Production Server (GCP)** | [http://your.static.external.ip:3000](http://your.static.external.ip:3000](http://34.72.188.74/)) | 
-| **Issue** | [https://github.com/your-username/your-repo-name/issues/1](https://github.com/your-username/your-repo-name/issues/1) | 
-| **Pull Request** | [https://github.com/your-username/your-repo-name/pull/1](https://github.com/your-username/your-repo-name/pull/1) | 
-| **Milestone** | [https://github.com/your-username/your-repo-name/milestone/1](https://github.com/your-username/your-repo-name/milestone/1) | 
-| **Successful CI/CD Action** | [https://github.com/your-username/your-repo-name/actions/runs/your-run-id](https://github.com/your-username/your-repo-name/actions/runs/your-run-id) | 
-| **ssh cmd to your gcp** | `ssh -i student-key bcumbie@your.static.external.ip` | 
+| **GitHub Repository** | [https://github.com/your-username/your-repo-name](https://github.com/znasser46/full-stack-tech-exam) | 
+| **GitHub Pages (docs/)** | [https://your-username.github.io/your-repo-name/](https://znasser46.github.io/full-stack-tech-exam/) | 
+| **Dev Server (Render)** | [https://your-app-name-dev.onrender.com](https://full-stack-tech-exam-4opt.onrender.com/) | 
+| **Production Server (GCP)** | [http://your.static.external.ip:3000](http://34.72.188.74/) | 
+| **Issue** | [https://github.com/your-username/your-repo-name/issues/1](https://github.com/znasser46/full-stack-tech-exam/issues/1) | 
+| **Pull Request** | [https://github.com/your-username/your-repo-name/pull/1](https://github.com/znasser46/full-stack-tech-exam/pull/2) | 
+| **Milestone** | [https://github.com/your-username/your-repo-name/milestone/1](https://github.com/znasser46/full-stack-tech-exam/milestone/1) | 
+| **Successful CI/CD Action** | [https://github.com/your-username/your-repo-name/actions/runs/your-run-id](https://github.com/znasser46/full-stack-tech-exam/actions/runs/23022692535/job/66862925620) | 
+| **ssh cmd to your gcp** | `ssh -i student-key bcumbie@your.static.external.ip` `ssh -i midterm znasser@34.72.188.74`| 
 
 ---
 
