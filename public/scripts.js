@@ -1,31 +1,38 @@
-document.getElementById('nameForm').addEventListener('submit', async (e) => {
-    e.preventDefault();
-
-    const name = document.getElementById('userName').value;
-
-
-    const response = await fetch('/api/get-name', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json'
-      },
-      body: JSON.stringify({ userName: name })
-      
-    });
-   
-
-     const result = await response.json();
-     
-     if (response.ok) {
-      document.getElementById("result") .textContent = ` ${result.name} ${result.emoji}`;
-     }
+async function initemoji() {
+  const response = await fetch('/api/init-emoji')
+  const result = await response.json();
+  console.log(result)
   
+};
+
+initemoji()
+
+document.getElementById('nameForm').addEventListener('submit', async (e) => {
+  e.preventDefault();
+
+  const name = document.getElementById('userName').value;
+
+  const response = await fetch('/api/get-name', {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json'
+    },
+    body: JSON.stringify({ userName: name })
+  });
+
+  const result = await response.json();
+
+  if (response.ok) {
+    document.getElementById("result").textContent =
+      `${result.name} ${result.emoji}`;
+  } else {
+    document.getElementById("result").textContent = result.error;
+    
+  }
+
+
 
 });
-
-
-
-
 // async function loadNames() {
 //     try {
 //       const response = await fetch('/api/names');
